@@ -1,0 +1,26 @@
+{
+  "name": "fogacasammuel/ofx",
+  "description": "Componente responsável por fazer a leitura de arquivos OFX",
+  "keywords": [
+    "Samuel Fogaça"
+  ],
+  "homepage": "http://www.sammuelfogaca.xyz",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Samuel Andrade Fogaça",
+      "email": "sammuel.fogaca@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FogacaSammuel\\Ofx\\": "src"
+    }
+  }
+}
